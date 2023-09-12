@@ -1,8 +1,3 @@
-# CPP_ClassCreator
-Certainly! Here's a README template text that you can copy to your GitHub repository's README file:
-
-markdown
-Copy code
 # Class Creator
 
 Automate the creation of C++ class files and a Makefile for your C++ programs with this Bash script.
@@ -11,7 +6,7 @@ Automate the creation of C++ class files and a Makefile for your C++ programs wi
 
 - Easily create C++ class files with customizable class names.
 - Generates header files (`*.hpp`) and source files (`*.cpp`) with placeholder methods.
-- Includes a pre-configured `Makefile` for compiling your C++ program.
+- Includes a pre-configured `Makefile`  and `main.cpp` for compiling your C++ program.
 - Provides a simple, guided interface for adding class names.
 
 ## Getting Started
