@@ -6,7 +6,7 @@ Automate the creation of C++ class files and a Makefile for your C++ programs wi
 
 - Easily create C++ class files with customizable class names.
 - Generates header files (`*.hpp`) and source files (`*.cpp`) with placeholder methods.
-- Includes a pre-configured `Makefile` for compiling your C++ program.
+- Includes a pre-configured `Makefile` and `main.cpp` for compiling your C++ program.
 - Provides a simple, guided interface for adding class names.
 
 ## Getting Started
@@ -38,3 +38,17 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ```bash
 # Your Bash code here
+
+```bash
+#!/bin/bash
+
+# Initialize arrays for class names and source files
+class_names=()
+source_files=()
+
+# ... (rest of your script here)
+
+echo "You entered the following class names:"
+for class_name in "${class_names[@]}"; do
+    echo "$class_name"
+done
