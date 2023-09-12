@@ -109,6 +109,36 @@ Example &Example::operator=(const Example &other)
 	return *this;
 }
 ```
+Created Makefile:
+```ruby
+NAME		:= program
+
+SRCS		:= Example.cpp main.cpp
+
+OBJS		:= $(SRCS:.cpp=.o)
+
+CFLAGS		:= -Wall -Werror -Wextra -std=c++98
+
+CC			:= c++
+
+$(NAME): $(OBJS)
+	$(CC) $(CFLAGS) $^ -o $@
+
+%.o: %.cpp
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PHONY: clean all re fclean
+
+clean:
+	rm -rf $(OBJS)
+
+fclean: clean
+	rm -rf $(NAME)
+
+re: fclean all
+
+all: $(NAME)
+```
 Follow the on-screen instructions to create your C++ class files and Makefile.
 
 Usage
