@@ -3,7 +3,25 @@
 Automate the creation of C++ class files and a Makefile for your C++ programs with this Bash script.
 All created classes are in form of the orthodox canonical form:
 
+Example for user_input:
 ```ruby
+
+   ________                    ______                __
+  / ____/ /___ ___________    / ____/_______  ____ _/ /_____  _____
+ / /   / / __ / __/ __ \/ ___/
+/ /___/ / /_/ (__  |__  )   / /___/ /  /  __/ /_/ / /_/ /_/ / /
+\____/_/\__,_/____/____/____\____/_/   \___/\__,_/\__/\____/_/
+                      /_____/
+
+Script completed successfully.
+Enter the class name without .hpp (or 'done' to finish): Example
+Enter the class name without .hpp (or 'done' to finish): done
+You entered the following class names:
+Example
+```
+
+Created hpp-file:
+```
 #ifndef EXAMPLE_HPP
 #define EXAMPLE_HPP
 
