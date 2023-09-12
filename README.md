@@ -3,7 +3,7 @@
 Automate the creation of C++ class files and a Makefile for your C++ programs with this Bash script.
 All created classes are in form of the orthodox canonical form:
 
-```
+```ruby
 #ifndef EXAMPLE_HPP
 #define EXAMPLE_HPP
 
