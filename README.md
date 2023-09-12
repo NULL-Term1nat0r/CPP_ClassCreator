@@ -1,6 +1,31 @@
 # Class Creator
 
 Automate the creation of C++ class files and a Makefile for your C++ programs with this Bash script.
+All created classes are in form of the orthodox canonical form
+
+```
+#ifndef EXAMPLE_HPP
+#define EXAMPLE_HPP
+
+#include <string>
+#include <iostream>
+
+class example
+{
+private:
+	// Class members
+
+public:
+	example();
+	example(std::string type);
+	example(const example &other);
+	~example();
+	example &operator=(const example &other);
+};
+
+#endif
+```
+
 
 ## Features
 
