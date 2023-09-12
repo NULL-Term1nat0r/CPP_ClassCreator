@@ -1,10 +1,40 @@
 # Class Creator
 
 Automate the creation of C++ class files and a Makefile for your C++ programs with this Bash script.
-All created classes are in form of the orthodox canonical form:
+All created classes are in form of the orthodox canonical form!
+
+## Features
+
+- Easily create C++ class files with customizable class names.
+- Generates header files (`*.hpp`) and source files (`*.cpp`) with placeholder methods.
+- Includes a pre-configured `Makefile` and `main.cpp` for compiling your C++ program.
+- Provides a simple, guided interface for adding class names.
+
+## Getting Started
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+```
+2. Navigate to the project directory:
+```
+cd your-repo
+```
+3. Make the script executable:
+```
+chmod +x class_creator.sh
+```
+
+4. Run the script:
+```
+./class_creator.sh
+```
+
+5. Lets do it together!
 
 Example for user_input:
-```ruby
+```
 
    ________                    ______                __
   / ____/ /___ ___________    / ____/_______  ____ _/ /_____  _____
@@ -21,7 +51,7 @@ Example
 ```
 
 Created hpp-file:
-```
+```ruby
 #ifndef EXAMPLE_HPP
 #define EXAMPLE_HPP
 
@@ -79,36 +109,6 @@ Example &Example::operator=(const Example &other)
 	return *this;
 }
 ```
-
-
-## Features
-
-- Easily create C++ class files with customizable class names.
-- Generates header files (`*.hpp`) and source files (`*.cpp`) with placeholder methods.
-- Includes a pre-configured `Makefile` and `main.cpp` for compiling your C++ program.
-- Provides a simple, guided interface for adding class names.
-
-## Getting Started
-
-1. Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-```
-Navigate to the project directory:
-```
-cd your-repo
-```
-Make the script executable:
-```
-chmod +x class_creator.sh
-```
-
-Run the script:
-```
-./class_creator.sh
-```
-
 Follow the on-screen instructions to create your C++ class files and Makefile.
 
 Usage
