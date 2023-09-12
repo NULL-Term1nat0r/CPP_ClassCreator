@@ -16,14 +16,18 @@ Automate the creation of C++ class files and a Makefile for your C++ programs wi
    ```bash
    git clone https://github.com/your-username/your-repo.git
 Navigate to the project directory:
-
+```
 cd your-repo
+```
 Make the script executable:
-
+```
 chmod +x class_creator.sh
+```
 
 Run the script:
+```
 ./class_creator.sh
+```
 
 Follow the on-screen instructions to create your C++ class files and Makefile.
 
@@ -34,21 +38,3 @@ Edit the generated files as needed to implement your class functionality.
 Run make to compile your program using the generated Makefile.
 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
-
-
-```bash
-# Your Bash code here
-
-```bash
-#!/bin/bash
-
-# Initialize arrays for class names and source files
-class_names=()
-source_files=()
-
-# ... (rest of your script here)
-
-echo "You entered the following class names:"
-for class_name in "${class_names[@]}"; do
-    echo "$class_name"
-done
