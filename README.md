@@ -38,8 +38,8 @@ public:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
+```bash
+git clone https://github.com/your-username/your-repo.git
 Navigate to the project directory:
 ```
 cd your-repo
