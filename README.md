@@ -25,6 +25,42 @@ public:
 
 #endif
 ```
+Created cpp functions in Example.cpp:
+```ruby
+#include "Header.h"
+#include "Example.hpp"
+
+// Implement class methods here
+
+Example::Example()
+{
+	std::cout << "Example default constructor called" << std::endl;
+}
+
+Example::Example(std::string type)
+{
+	std::cout << "Example constructor with type called" << std::endl;
+}
+
+Example::Example(const Example &other)
+{
+	*this = other;
+	std::cout << "Example copy constructor called" << std::endl;
+}
+
+Example::~Example()
+{
+	std::cout << "Example destructor called" << std::endl;
+}
+
+Example &Example::operator=(const Example &other)
+{
+	if (this == &other)
+		return *this;
+	std::cout << "Example copy assignment constructor called" << std::endl;
+	return *this;
+}
+```
 
 
 ## Features
