@@ -44,11 +44,3 @@ Edit the generated files as needed to implement your class functionality.
 Run make to compile your program using the generated Makefile.
 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-vbnet
-Copy code
-
-Replace the placeholders like `your-username`, `your-repo`, and update the sections with information specific to your project. This template provides a basic structure for your README file, and you can expand on it as needed.
